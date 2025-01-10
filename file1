@@ -1,2 +1,68 @@
 hello all
 good morning
+error:
+remote: Permission to polarapu/batch107.git denied to Sibyalalakshmi.
+fatal: unable to access 'https://github.com/polarapu/batch107.git/': The requested URL returned error: 403
+
+permissions added  --> accept the invitation
+
+git push
+git pull --rebase
+git push
+
+LOGS
+====
+git log
+git log -n
+git log --oneline
+git log --oneline -n
+git log --author=Prasad
+git log --author=Prasad -n
+git log --author=Prasad --oneline
+git log --author=Prasad --oneline -n
+
+git log - -since=yy-mm-dd
+or
+git log --after=yy-mm-dd
+
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --since="yy-mm-dd 2:00" --until="yy-mm-dd 23:00"
+
+git log -- file file-name
+
+git log --grep "label"
+
+git log --grep "label" m--author=name
+
+===================================
+Merge Vs Rebase
+===============
+git merge branch-name
+git rebase branch-name
+
+git pull --rebase
+
+Tags
+====
+git tag
+git tag T-1.0
+git show T-1.0
+git tag -d T-1.0  (local delete)
+
+git tag T-1.0 cid
+git push origin T-1.0  (to upload)
+
+git push --tags (to upload all tags)
+git checkout T-1.0
+git push origin -d T-1.0  (to delete tag in git-hub)
+
+
+Stash
+=====
